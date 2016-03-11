@@ -3,11 +3,11 @@ var $ = require('jquery');
 
 
 var Post = Backbone.Model.extend({
-  
+
 })
 var PostCollection = Backbone.Collection.extend({
     model: Post,
-    url: "http://tiny-lasagna-server.herokuapp.com/collections/stunna"
+    url: "http://tiny-lasagna-server.herokuapp.com/collections/stunnaBlog"
 
 })
 

@@ -21,7 +21,7 @@ var FormView = Backbone.View.extend({
     var formData = this.$el.serializeObject();
     console.log(formData)
     this.collection.create(formData);
-
+    this.render();
   },
   render: function(){
     this.$el.html(this.template());

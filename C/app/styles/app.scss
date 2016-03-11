@@ -15,3 +15,23 @@ $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
 img {
   max-width: 100%;
 }
+.container {
+  padding-top: 20px;
+}
+.sidebar {
+  width: 22%;
+  border: 1px solid red;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: inline-block;
+  button {
+    width: 100%;
+  }
+}
+
+.main-body {
+  width: 65%;
+  border: 1px solid black;
+  display: inline-block;
+
+}
