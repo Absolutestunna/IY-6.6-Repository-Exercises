@@ -10,6 +10,7 @@ $.fn.serializeObject = function() {
   }, {});
 };
 
+
 var ContactView = Backbone.View.extend({
   tagName: 'form',
   className: 'contact-group',
